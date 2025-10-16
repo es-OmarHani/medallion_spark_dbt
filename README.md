@@ -4,9 +4,17 @@
 
 This repository contains the **dbt (Data Build Tool)** part of a full end-to-end **Azure Data Engineering project**.
 
-The full project ingests data from **Azure SQL Database** into **Azure Data Lake Storage Gen2** using **Azure Data Factory (ADF)**, processes it with **Azure Databricks**, and transforms it into analytics-ready models using **dbt** — following the **Medallion Architecture** (Bronze → Silver → Gold).
+The full project ingests data from **Azure SQL Database** into **Azure Data Lake Storage Gen2** using **Azure Data Factory (ADF)**, processes it with **Azure Databricks**, and transforms it into analytics-ready models using **dbt**  following the **Medallion Architecture** (Bronze → Silver → Gold).
+
 
 This repo focuses on the **dbt transformations** (Silver & Gold layers).
+
+---
+### 🧭 System Architecture
+
+![System Architecture](system_architecture.png)
+
+> **Figure:** End-to-end Azure Data Engineering pipeline integrating ADF, Databricks, and dbt within the Medallion Architecture.
 
 ---
 
