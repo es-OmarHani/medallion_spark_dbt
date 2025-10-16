@@ -1,0 +1,10 @@
+# dbt auto-generated folders
+target/
+logs/
+dbt_packages/
+
+# credentials and local configs
+profiles.yml
+.env
+*.key
+*.json
